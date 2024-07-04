@@ -1,0 +1,38 @@
+{
+	"compiler": {
+		"version": "0.5.16+commit.9c3226ce"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Wrappers over Solidity's arithmetic operations with added overflow checks. * Arithmetic operations in Solidity wrap on overflow. This can easily result in bugs, because programmers usually assume that an overflow raises an error, which is the standard behavior in high level programming languages. `SafeMath` restores this intuition by reverting the transaction when an operation overflows. * Using this library instead of the unchecked operations eliminates an entire class of bugs, so it's recommended to use it always.",
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DexSwap/USDT.sol": "SafeMath"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DexSwap/USDT.sol": {
+			"keccak256": "0x5b907e52bf4cc62b65fc6cf12a702ca923216e7b70fb361b257cc55f63f52b68",
+			"urls": [
+				"bzz-raw://3b88cd6d02b4b8936604651b005854a18e330449d039934afe316a1a6fbe4dd8",
+				"dweb:/ipfs/QmTzEAotCn3UzbFKMPmHHk9A57GLjq9yAFqMWvpLZLk5os"
+			]
+		}
+	},
+	"version": 1
+}
